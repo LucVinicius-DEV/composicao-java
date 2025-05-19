@@ -1,14 +1,14 @@
 ![Banner](https://github.com/LucVinicius-DEV/composicao-java/blob/main/banner.png)
 
-# 🧱 Composição em Java
+# 🧱 Composição em Java — Contratos de Trabalho
 
-Repositório com exercício prático de **composição de objetos em Java**, parte fundamental da Programação Orientada a Objetos (POO). O projeto simula um sistema de pedidos com clientes, produtos, itens e status, reforçando os conceitos de modelagem de classes e relações entre objetos.
+Repositório com exercício prático de **composição de objetos em Java**, demonstrando a relação entre um trabalhador, seu departamento e contratos por hora. O projeto reforça conceitos de Programação Orientada a Objetos como encapsulamento, enumerações e estruturação de dados.
 
 ---
 
 ## 📚 Projeto disponível
 
-- [SISTEMA DE PEDIDOS](./src) — Aplicação que utiliza composição para representar e processar um pedido com múltiplos itens e informações do cliente.
+- [GESTÃO DE CONTRATOS DE TRABALHO](./src) — Simulação de um sistema que calcula a renda mensal de um funcionário com base em seus contratos.
 
 ---
 
@@ -20,32 +20,36 @@ Repositório com exercício prático de **composição de objetos em Java**, par
 
 ---
 
-# 📦 Sistema de Pedidos
+# 👨‍💼 Gestão de Contratos
 
-Aplicação que demonstra o uso da composição entre classes como `Cliente`, `Produto`, `Pedido`, `ItemPedido` e `StatusPedido`.
+Este projeto simula um cenário de empresa onde cada trabalhador possui:
+
+- Um **nome**, um **nível** (enum) e pertence a um **departamento**
+- Um ou mais **contratos por hora** com valor e duração
+- Capacidade de calcular sua **renda mensal** com base nesses contratos
 
 ## ✨ Funcionalidades
 
-- Cadastro de cliente com nome, email e data de nascimento.
-- Registro de produtos com nome e preço.
-- Associação de produtos ao pedido com quantidade.
-- Impressão de um resumo completo do pedido, incluindo data, status, cliente, itens e total.
+- Cadastro do trabalhador e departamento
+- Registro de múltiplos contratos
+- Cálculo da renda total para um mês e ano específicos
+- Uso de enum `WorkerLevel` para representar os níveis do trabalhador
 
 ## ▶️ Como executar
 
-1. Clone o repositório ou acesse pelo Replit.
+1. Clone o repositório ou acesse via Replit.
 2. Abra o arquivo `Main.java`.
-3. Execute o programa e insira os dados solicitados no terminal.
+3. Execute e insira os dados conforme instruções no terminal.
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Lucas Vinícius com apoio da Luna, na jornada de aprendizado em Java.
+Desenvolvido por Lucas Vinícius com apoio da Luna, durante a formação em Java.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas%20Vinícius-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/)  
 [![GitHub](https://img.shields.io/badge/GitHub-LucVinicius--DEV-black?style=flat&logo=github)](https://github.com/LucVinicius-DEV)
 
 ---
 
-Se você gostou deste projeto, deixe um ⭐ para apoiar o repositório e acompanhe o progresso pelo [LinkedIn](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/) e pelo [GitHub](https://github.com/LucVinicius-DEV)!
+Se este projeto te ajudou, deixe uma estrela ⭐ no repositório e acompanhe a jornada no [LinkedIn](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/) e [GitHub](https://github.com/LucVinicius-DEV)!
